@@ -1,6 +1,5 @@
 import java.time.LocalDate;
 
-import testpackage.Pegawai;
 
 public class RumahSakitDemo {
     public static void main(String[] args) {
