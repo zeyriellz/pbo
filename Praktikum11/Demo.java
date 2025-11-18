@@ -15,11 +15,5 @@ public class Demo {
         daftarPegawai.add(tendik2);
 
         System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
-        
-        System.out.println("\n--- Info Semua Pegawai ---");
-        for (Pegawai p : daftarPegawai) {
-            p.displayInfo();
-            System.out.println("------------------------");
         }
     }
-}

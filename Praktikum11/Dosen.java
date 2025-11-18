@@ -9,7 +9,6 @@ public class Dosen extends Pegawai {
         this.nidn = nidn;
     }
 
-    // Overriding method dari Pegawai
     public void displayInfo() {
         super.displayInfo();
         System.out.println("NIDN: " + nidn);
