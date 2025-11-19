@@ -29,4 +29,9 @@ public class Demo {
 
         System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
         }
+
+        public static void train(Pegawai pegawai) {
+            System.out.println("Memberikan pelatihan untuk pegawai");
+            pegawai.displayInfo();
+        }
     }
